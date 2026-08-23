@@ -1,0 +1,11 @@
+package-manager: "auto"
+sync-lockfile: true
+fix-audit: true
+audit-level: "moderate"
+check-only: false
+direct-push: false
+pr-branch: "syncmydep/dependency-fix"
+pr-title: "chore(deps): synchronize dependencies"
+commit-message: "chore(deps): update lockfile"
+pr-labels:
+  - "dependencies"
