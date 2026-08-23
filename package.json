@@ -1,0 +1,7 @@
+{
+  "name": "syncmydep-sandbox-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
