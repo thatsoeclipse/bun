@@ -34,7 +34,7 @@ jobs:
           node-version: 20
 
       - name: Run SyncMyDep
-        uses: nivinvysakh/syncmydep@Improvements
+        uses: nivinvysakh/syncmydep@Beta
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           sync-lockfile: "true"
